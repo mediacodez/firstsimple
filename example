@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h1, h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .bio, .portfolio, .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .portfolio ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .portfolio ul li {
+            background-color: #e7e7e7;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+    </header>
+
+    <section class="bio">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate individual with a love for creativity and innovation. I enjoy exploring new ideas and working on exciting projects that challenge my skills.</p>
+    </section>
+
+    <section class="portfolio">
+        <h2>My Portfolio</h2>
+        <ul>
+            <li>Project 1: Creative Website Design</li>
+            <li>Project 2: Mobile App Development</li>
+            <li>Project 3: Data Analysis Project</li>
+            <li>Project 4: Innovative Product Concept</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>Twitter: <a href="https://twitter.com/yourusername" target="_blank">@yourusername</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Personal Webpage</p>
+    </footer>
+
+</body>
+</html>
